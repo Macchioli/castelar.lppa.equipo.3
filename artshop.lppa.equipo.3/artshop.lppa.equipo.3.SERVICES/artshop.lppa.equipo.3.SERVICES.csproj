@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D6C4C7F-E96A-4679-8021-431B9D2FC2B8}</ProjectGuid>
+    <ProjectGuid>{4F020B45-BC07-4A0C-8546-24D8A6AD2C08}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>artshop.lppa.equipo._3.DATA</RootNamespace>
-    <AssemblyName>artshop.lppa.equipo.3.DATA</AssemblyName>
+    <RootNamespace>artshop.lppa.equipo._3.SERVICES</RootNamespace>
+    <AssemblyName>artshop.lppa.equipo.3.SERVICES</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -32,7 +32,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,12 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Identity.cs" />
-    <Compile Include="Model\productos.cs" />
-    <Compile Include="Model\tipoAutor.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\InMemoryProductosData.cs" />
-    <Compile Include="Services\IProductosData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

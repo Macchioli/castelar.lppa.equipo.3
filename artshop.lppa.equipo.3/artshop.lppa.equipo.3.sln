@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "artshop.lppa.equipo.3", "ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "artshop.lppa.equipo.3.DATA", "artshop.lppa.equipo.3.DATA\artshop.lppa.equipo.3.DATA.csproj", "{1D6C4C7F-E96A-4679-8021-431B9D2FC2B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "artshop.lppa.equipo.3.SERVICES", "artshop.lppa.equipo.3.SERVICES\artshop.lppa.equipo.3.SERVICES.csproj", "{4F020B45-BC07-4A0C-8546-24D8A6AD2C08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1D6C4C7F-E96A-4679-8021-431B9D2FC2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D6C4C7F-E96A-4679-8021-431B9D2FC2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D6C4C7F-E96A-4679-8021-431B9D2FC2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F020B45-BC07-4A0C-8546-24D8A6AD2C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F020B45-BC07-4A0C-8546-24D8A6AD2C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F020B45-BC07-4A0C-8546-24D8A6AD2C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F020B45-BC07-4A0C-8546-24D8A6AD2C08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
