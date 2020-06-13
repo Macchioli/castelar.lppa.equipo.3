@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace artshop.lppa.equipo._3.Controllers
 {
+    [Authorize]
     public class productosController : Controller
     {
 
