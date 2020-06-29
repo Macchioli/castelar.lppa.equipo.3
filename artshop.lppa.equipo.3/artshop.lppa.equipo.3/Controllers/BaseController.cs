@@ -22,6 +22,8 @@ namespace artshop.lppa.equipo._3.Controllers
             return result;
         }
 
+        //--
+
         protected void CheckAuditPattern(dynamic model, bool created = false)
         {
             string userId = TryGetUserId();
