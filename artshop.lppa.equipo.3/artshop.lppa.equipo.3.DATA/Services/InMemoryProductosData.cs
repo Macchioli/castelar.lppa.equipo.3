@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using artshop.lppa.equipo._3.DATA.Model;
 
 namespace artshop.lppa.equipo._3.DATA.Services
 {
-    public class InMemoryProductosData : IProductosData
+    public class InMemoryProductosData : BaseDataService<productos>
     {
 
         readonly List<productos> productos;  
@@ -22,9 +23,10 @@ namespace artshop.lppa.equipo._3.DATA.Services
             };
         }
 
-        IEnumerable<productos> IProductosData.GetAll()
+        public override List<productos> Get(Expression<Func<productos, bool>> whereExpression = null, Func<IQueryable<productos>, IOrderedQueryable<productos>> orderFunction = null, string includeEntities = "")
         {
-            return productos.OrderBy(o=> o.nombre);
+            return productos.OrderBy(o => o.nombre).ToList();
         }
+    
     }
 }
