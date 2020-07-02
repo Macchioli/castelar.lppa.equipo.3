@@ -21,7 +21,7 @@ namespace artshop.lppa.equipo._3.Controllers
         public AccountController()
         {
         }
-
+        //asd
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
