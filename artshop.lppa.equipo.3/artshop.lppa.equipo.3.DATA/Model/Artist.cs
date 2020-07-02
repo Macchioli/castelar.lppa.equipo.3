@@ -11,6 +11,7 @@ namespace artshop.lppa.equipo._3.DATA.Model
 {
     public class Artist :IdentityBase
     {
+        
         [Required]
         [DisplayName("Nombre")]
         public string FirstName { get; set; }

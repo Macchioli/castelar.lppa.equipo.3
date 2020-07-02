@@ -20,10 +20,7 @@ namespace artshop.lppa.equipo._3.Controllers
 
         public ActionResult Index()
         {
-
-            var i = 0;
-            var result = 15 / i;
-
+                 
             var list = db.Get();
             return View(list);
         }
