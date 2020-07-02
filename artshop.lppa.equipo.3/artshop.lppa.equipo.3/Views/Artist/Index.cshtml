@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<artshop.lppa.equipo._3.DATA.Model.Artist>
 
 @{
-    ViewBag.Title = "Lista de Profesionales";
+    ViewBag.Title = "Lista de Artistas";
 }
 
 <div class="post">
-    <h2 class="title"><a href="#"> Lista de Profesionales</a></h2>
-    <p class="byline">Hay un total de @Enumerable.Count(Model) Profesionales</p>
+    <h2 class="title"><a href="#"> Lista de artistas</a></h2>
+    <p class="byline">Hay un total de @Enumerable.Count(Model) Artistas</p>
     <p>
-        <a href="/Artist/Create" class="btn-input">Nuevo Profesional</a>
+        <a href="/Artist/Create" class="btn-input">Nuevo Artista</a>
     </p>
 
     <div>
@@ -18,15 +18,15 @@
                     @Html.DisplayNameFor(model => model.FullName)
                 </th>
 
-                <th>
+                @*<th>
                     @Html.DisplayNameFor(model => model.LifeSpan)
-                </th>
+                </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.Country)
                 </th>
-                <th>
+                @*<th>
                     @Html.DisplayNameFor(model => model.Description)
-                </th>
+                </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.TotalProducts)
                 </th>
@@ -41,15 +41,15 @@
                         @Html.DisplayFor(modelItem => item.FullName)
                     </td>
 
-                    <td>
+                    @*<td>
                         @Html.DisplayFor(modelItem => item.LifeSpan)
-                    </td>
+                    </td>*@
                     <td>
                         @Html.DisplayFor(modelItem => item.Country)
                     </td>
-                    <td>
+                    @*<td>
                         @Html.DisplayFor(modelItem => item.Description)
-                    </td>
+                    </td>*@
                     <td>
                         @Html.DisplayFor(modelItem => item.TotalProducts)
                     </td>

@@ -10,6 +10,7 @@ using System.Web.Mvc;
 
 namespace artshop.lppa.equipo._3.Controllers
 {
+    [Authorize]
     public class ArtistController : BaseController
     {
         private BaseDataService<Artist> db;

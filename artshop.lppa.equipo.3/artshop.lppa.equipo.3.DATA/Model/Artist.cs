@@ -19,18 +19,18 @@ namespace artshop.lppa.equipo._3.DATA.Model
         [DisplayName("Apellido")]
         [Required]
         public string LastName { get; set; }
-        [Required]
         public string LifeSpan { get; set; }
 
-        [DisplayName("País")]
+        [DisplayName("Nacionalidad")]
         [Required]
         public string Country { get; set; }
         [DisplayName("Descripción")]
         [Required]
         public string Description { get; set; }
-        [DisplayName("Total")]
+        [DisplayName("Total de obras")]
         public int TotalProducts { get; set; }
 
+        [DisplayName("Nombre completo")]
         [NotMapped]
         public string FullName
         {
