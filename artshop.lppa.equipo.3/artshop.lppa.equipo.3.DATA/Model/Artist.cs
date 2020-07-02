@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace artshop.lppa.equipo._3.DATA.Model
 {
-    public class Artist :IdentityBase
+    public class  Artist :IdentityBase
     {
 
         [Required]
