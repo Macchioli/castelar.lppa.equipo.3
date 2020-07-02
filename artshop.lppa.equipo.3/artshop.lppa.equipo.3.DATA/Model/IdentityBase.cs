@@ -23,6 +23,5 @@ namespace artshop.lppa.equipo._3.DATA.Model
 
         public string ChangedBy { get; set; }
 
-
     }
 }

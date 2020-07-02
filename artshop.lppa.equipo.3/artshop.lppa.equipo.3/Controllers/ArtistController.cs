@@ -24,9 +24,9 @@ namespace artshop.lppa.equipo._3.Controllers
             //var i = 0;
             //var result = 15 / i;
 
-            //var list = db.Get();
-            //return View(list);
-            return View();
+            var list = db.Get();
+            return View(list);
+           
         }
 
 

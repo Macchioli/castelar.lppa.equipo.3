@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,6 +11,7 @@ namespace artshop.lppa.equipo._3.DATA.Model
 {
     public class Artist :IdentityBase
     {
+
         [Required]
         [DisplayName("Nombre")]
         public string FirstName { get; set; }
@@ -39,7 +40,6 @@ namespace artshop.lppa.equipo._3.DATA.Model
             }
         }
         public virtual ICollection<Product> Product { get; set; }
-
 
     }
 

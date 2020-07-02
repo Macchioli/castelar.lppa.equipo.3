@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace artshop.lppa.equipo._3.DATA.Services
 {
-    public class ArtDBContext :DbContext
+    public partial class ArtDBContext :DbContext
     {
 
         public ArtDBContext() : base("name=DefaultConnection")

@@ -1,6 +1,6 @@
 ﻿namespace artshop.lppa.equipo._3.DATA.Model
 {
-    public class Product
+    public class Product : IdentityBase
     {
         public string Title { get; set; }
         public string Description { get; set; }
